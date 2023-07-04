@@ -1,3 +1,3 @@
 # Portfolio-Website
 link for the portfolio:
-https://github.com/Rishabh0523/Portfolio-Websites/edit/main/Portfolio%20Website/README.md
+http://127.0.0.1:5500/index.html
