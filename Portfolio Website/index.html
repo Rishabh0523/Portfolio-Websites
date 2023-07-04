@@ -1,0 +1,253 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>RISHABH Portfolio</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://kit.fontawesome.com/05424b95a1.js" crossorigin="anonymous"></script>
+</head>
+<body>
+    <div id="header">
+        <div class="container">
+            <nav>
+                <img src="./Images/logo r.png" alt="Portfolio" class="rishabhlogo">
+                <ul id="sidemenu">
+                    <li><a href="#header">Home</a></li>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#services">Services</a></li>
+                    <li><a href="#portfolio">Portfolio</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                    <i class="fa-solid fa-xmark" onclick="closemenu()"></i>
+                </ul>
+                <i class="fa-solid fa-bars" onclick="openmenu()"></i>
+            </nav>
+            <div class="header-text">
+                <p>Software Developer </p>
+                <h1>Hi, I'm <span>Rishabh </span><br> Raj From India</h1>
+            </div>
+        </div>
+    </div>
+
+
+
+    <!-- ---------  About Section ----------- -->
+
+    <div id="about">
+        <div class="container">
+            <div class="row">
+                <div class="about-col-1">
+                    <img src="./Images/rishabh.jpg" alt="">
+                </div>
+                <div class="about-col-2">
+                    <h1  class="sub-title">About Me</h1>
+                    <p>
+                        I am passionate towards's my work , I have skills of hard working as well as smart working. I am open to work in any conditions and any environments. I love to work on different differnt projects and also challenging one .
+                    </p>
+                    <div class="tab-titles">
+                        <p class="tab-links active-link" onclick="opentab('skills')">Skills</p>
+                        <p class="tab-links"onclick="opentab('Acheivements')">Acheivements</p>
+                        <p class="tab-links"onclick="opentab('Experience')">Experience</p>
+                    </div>
+                    <div class="tab-contents active-tab" id="skills"><ul>
+                        <li><span>Languages</span><br>C++ , HTML , CSS , JAVASCRIPT</br></li>
+                        <li><span>Frame Works</span><br>React Js , TAILWIND CSS</br></li>
+                        <li><span>DEVOPS</span><br> AWS , GIT , DOCKER</br></li>
+                        <li><span>Operating System</span><br>Linux, Windows</br></li>
+                        <li><span id="rishu">Front-End Web Developer</span</li>
+                            <li><span id="rishu1">Data Structure and Algorithm</span</li>
+                                <li><span id="rishu2">Good Communication and Leadership skills
+                                </span</li>
+                    </ul></div>
+                    <div class="tab-contents" id="Acheivements"><ul>
+                        <li><span> GFG (07/2022)) </span><br>DSA Self Placed Course </br></li>
+                        <li><span> CodeHelp(06/2023) </span><br>FullStack web development Course 
+                            </br></li>
+                            <li><span> Udemy (05/2021)</span><br>HTML ,CSS
+                            </br></li>
+                            <li><span>Coursera (06/2023)</span><br> Node Js</li>
+                            
+                       
+                        
+                    </ul></div>
+                    <div class="tab-contents" id="Experience"><ul>
+                        <li><span>Front-End Intern<br>Angle Public School </br></span><br>05/2022 - 07/2022,<br>This school is in my home town Ramnagar , west champaran, Bihar</br>
+                        </br></li>
+            
+                            <li><span>House Captaion<br>Rajhans Public School </br></span><br>03/2015 - 02/2017
+                            </br></li>
+                    </ul></div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+<!-- ---------------------------------------------Services----------------------------- -->
+<div id="services">
+    <div class="container">
+        <h1 class="sub-title">My Services</h1>
+        <div class="services-list">
+            <div>
+                <i class="fa-solid fa-code"></i>
+                <h2>UI/UX DESIGN</h2>
+                <p>Proficient in creating intuitive and visually appealing user interfaces that enhance user experience and meet business objectives.
+                    Demonstrated expertise in conducting user research, analyzing data, and translating insights into effective UI/UX solutions.
+                    Proficient in designing responsive and mobile-friendly interfaces that ensure a consistent experience across different devices.
+                </p>
+                <!-- <a href="#">Learn More</a> -->
+                <a href="https://www.freecodecamp.org/news/ui-ux-design-guide/">Learn More UI/UX DESIGN</a>
+            </div>
+            <div>
+                <i class="fa-brands fa-codepen"></i>
+                
+                <h2>FRONTED</h2>
+                <p>Helps you in making fronted website attractive and useful using various technologies like html, css, js, react js, and tailwind css. </p>
+                <!-- <a href="#">Learn More</a> -->
+                <a href="https://www.w3schools.com/whatis/whatis_frontenddev.asp#:~:text=The%20difference%20between%20Front%2DEnd,HTML%2C%20CSS%2C%20and%20JavaScript.">Learn more Fronted</a>
+            </div>
+            <div>
+                <i class="fa-regular fa-file-excel"></i>
+                <h2>DEVOPS</h2>
+                <p>Having knowledge of Devops technologies like aws , docker , kubernates ,Git , GitHub etc. Which increase speed , Rapid Delivery , Reliability,scale these are the benefits of using devops.</p>
+                <!-- <a href="#">Learn More</a> -->
+                <a href="https://aws.amazon.com/devops/what-is-devops/">Learn More Devops</a>
+            </div>
+        </div>
+    </div>
+</div>
+
+<!-- =----------------------Portfolio----------------------------- -->
+
+<div id="portfolio">
+    <div class="container">
+        <h1 class="sub-title">My Work</h1>
+        <div class="work-list">
+            <div class="work">
+                <img src="images/Work 1.png" height="100%" alt="">
+                <div class="layer">
+                    <h3>Parallax website</h3>
+                    <p>This website is made for better understanding of responsiveness in css.It's a adventure website.</p>
+                    <a href="https://github.com/Rishabh0523/Parallax-website/tree/main/PARALLAX%20EFFECT" target="_blank"><i class="fa-solid fa-link"></i></a>
+                </div>
+            </div>
+            <div class="work">
+                <img src="images/Work 2.jpeg" height="100%" width="100%" alt="">
+                <div class="layer">
+                    <h3>Weather App</h3>
+                    <p>It's a live weather app, after granting the access of live location we will get the windspeed, Humidity, Clouds.We will get live weather after typing any area name also.  </p>
+                    <a href="https://github.com/Rishabh0523/WeatherApp-Javascript-" target="_blank"><i class="fa-solid fa-link"></i></a>
+                </div>
+            </div>
+            <div class="work">
+                <img src="./Images/Work 3.jpeg" alt="">
+                <div class="layer">
+                    <h3>Personal Portfolio</h3>
+                    <p>It's all about me and my works in various technologies.
+                    </p>
+                    <a href=""><i class="fa-solid fa-link"></i></a>
+                </div>
+            </div>
+        </div>
+        <a href="#" class="btn">See More</a>
+    </div>
+</div>
+
+<!-- -------------------------ContactME ---------------- -->
+
+<div id="contact">
+    <div class="container">
+        <div class="row">
+            <div class="contact-left">
+                <h1 class="sub-title">Contact Me</h1>
+                <p><i class="fa-solid fa-paper-plane"></i>rishabhsingh.rs432@gmail.com</p>
+                <p><i class="fa-solid fa-phone-volume"></i>7903405752</p>
+                <div class="social-icons">
+                    <a href="https://www.instagram.com/rishabhsingh.2305/" target="blank"><i class="fa-brands fa-instagram"></i></a>
+                    <a href="https://www.linkedin.com/in/rishabh-raj23/" target="_blank"><i class="fa-brands fa-linkedin"></i></a>
+
+                    <a href="https://github.com/Rishabh0523?tab=overview&from=2023-06-01&to=2023-06-24" target="blank"><i class="fa-brands fa-github"></i></a>
+                </div>
+
+                <a href="./Images/Rishabh CV 2_compressed (2).pdf" class="btn btn2" target="blank">Download CV</a>
+            </div>
+             <div class="contact-right">
+                <form name="submit-to-google-sheet" >
+<input type="text" name="Name" placeholder="Your Name" required>
+<input type="email" name="email" placeholder="Your Email" required>
+<textarea name="Message" rows="6" placeholder="Your Message"></textarea>
+<button type="submit" class="btn btn2">Submit</button>
+                </form>
+                <span id="msg">
+                </span>
+             </div>
+        </div>
+    </div>
+    <div class="copyright">
+        <p>copyright &#2305;Raj, Made with <i class="fa-solid fa-heart"></i> by Rishabh Raj</p>
+    </div>
+</div>
+
+    <script>
+        
+        var tablinks=document.getElementsByClassName("tab-links");
+        var tabcontents=document.getElementsByClassName("tab-contents");
+
+        // writing the open tab function 
+        function opentab(tabname){
+
+            for( var tablink of tablinks){
+                console.log("d");
+                tablink.classList.remove("active-link");
+            }
+            for( var tabcontent of tabcontents){
+                tabcontent.classList.remove("active-tab");
+            }
+            event.currentTarget.classList.add("active-link");
+           document.getElementById(tabname).classList.add("active-tab");
+
+        }
+
+
+    </script>
+
+
+<script>
+
+    var sidemenu=document.getElementById("sidemenu");
+    function openmenu(){
+
+        sidemenu.style.right="0"; 
+    }
+    function closemenu(){
+
+sidemenu.style.right="-200px"; 
+}
+</script>
+<form name="submit-to-google-sheet">
+     <!-- <input name="email" type="email" placeholder="Email" required>
+     <button type="submit">Send</button> -->
+  </form>
+  
+  <script>
+    const scriptURL = 'https://script.google.com/macros/s/AKfycbzPGxPBhyBaCc33VObf0hilK26MXoJ63XjSuxfYgDG4YCQIaTlgK-iR_gnLdxYaIOU/exec'
+    const form = document.forms['submit-to-google-sheet']
+    const msg=document.getElementById("msg");
+  
+    form.addEventListener('submit', e => {
+      e.preventDefault()
+      fetch(scriptURL, { method: 'POST', body: new FormData(form)})
+        .then(response => {
+            msg.innerHTML="Message Sent Successfully";
+            setTimeout(function(){
+                msg.innerHTML=""
+            },5000)
+            form.reset();
+        })
+        .catch(error => console.error('Error!', error.message))
+    })
+  </script>
+    
+</body>
+</html>
